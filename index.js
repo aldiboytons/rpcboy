@@ -4,13 +4,13 @@ client.on('ready', () => {
 client.request('SET_ACTIVITY', {
 pid: process.pid,
 activity : {
-details : "grep sudo /var/log/auth.log | grep less | tail -1",
+details : "Gaskann",
 assets : {
 large_image : "large",
-large_text : " sudo vi /var/spool/anacron/cron.daily" // THIS WILL SHOW AS "Streaming <Status>" from the outisde
+large_text : "SATU ATAP" // THIS WILL SHOW AS "Streaming <Status>" from the outisde
 },
-buttons : [{label : "Support Server" , url : "https://discord.gg/s5qEhAPbDz"},{label : "Instagram",url : "https://instagram.com/ttax.id"}]
+buttons : [{label : "Support Server" , url : "https://discord.gg/74kHyRUxmC"},{label : "Instagram",url : "https://instagram.com/satuatap_dc"}]
 }
 })
 })
-client.login({ clientId : "822491161985810442" }).catch(console.error);
+client.login({ clientId : "823937642059399170" }).catch(console.error);
